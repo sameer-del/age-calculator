@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=IBM+Plex+Serif&family=Playfair+Display:ital,wght@1,800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=IBM+Plex+Serif&family=Playfair+Display:ital,wght@1,800&family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    cursor: -webkit-grabbing;
+}
+body{
+    height: 100%;
+    background-image: url("background 3.jpg");
+    background-position: center;
+    background-repeat: x-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color:rgb(27,20,28) ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 5.3);
+    padding-bottom: 15px;
+}
+.calculator{
+    
+    background-image: url("background\ 3.jpg");
+    background-size: contain;
+    /*margin: 30px 0px 300px 30px;*/
+    margin: 5%;
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50vh;
+   border-radius: 30px;
+   box-shadow: 15px 15px 10px rgba(0, 0, 0, 5.3);
+   
+}
+.input-box{
+    background-color:rgb(100,105,111);
+    margin: 40px 0;
+    padding: 25px;
+    border-radius: 10px;
+    /*background-color: rgb(231, 246, 241);*/
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 5.3);
+}
+
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+.input-box button{
+    background:rgb(23, 23, 22);
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #efdede;
+    cursor: pointer;
+}
+.input-box input::-webkit-calendar-picker-indicator{
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: auto;
+     height: auto ;
+     position: absolute;
+     background-position: calc(100% - 10px);
+     background-size: 20px;
+}
+.input-box .age{
+    /*padding: 15px;*/
+    padding-right: 50px;
+}
+h3{
+    color: rgb(3, 19, 21);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
